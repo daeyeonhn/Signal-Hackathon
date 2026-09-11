@@ -16,6 +16,6 @@
 		}
 	],
 	"vars": {
-		"AUTH_BASE_URL": "https://signal-portal.myhackathons.workers.dev"
+		"AUTH_BASE_URL": "https://signal-portal.daeyeondhan.workers.dev"
 	}
 }
