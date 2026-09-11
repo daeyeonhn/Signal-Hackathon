@@ -1,0 +1,27 @@
+{
+	"$schema": "node_modules/wrangler/config-schema.json",
+	"name": "signal-portal",
+	"main": "vinext/server/fetch-handler",
+	"compatibility_date": "2026-09-01",
+	"compatibility_flags": [
+		"nodejs_compat"
+	],
+	"workers_dev": true,
+	"d1_databases": [
+		{
+			"binding": "DB",
+			"database_name": "signal-db",
+			"database_id": "66f8e906-98a6-4ce0-88aa-8d0e886138ad",
+			"migrations_dir": "drizzle"
+		},
+		{
+			"binding": "signal_db",
+			"database_name": "signal-db",
+			"database_id": "66f8e906-98a6-4ce0-88aa-8d0e886138ad",
+			"remote": true
+		}
+	],
+	"vars": {
+		"AUTH_BASE_URL": "https://signal-portal.daeyeondhan.workers.dev"
+	}
+}
