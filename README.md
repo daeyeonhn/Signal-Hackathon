@@ -15,16 +15,3 @@ A hackathon application platform for hackers, mentors, and organizers.
 React, TypeScript, Tailwind CSS, Next.js App Router conventions, Vinext, Cloudflare Workers and D1, Drizzle, Better Auth, and Zod.
 
 The backend requires a Worker and database.
-
-## Development
-
-Use Node.js 24 and the pnpm version specified in `package.json`.
-
-```sh
-pnpm install --frozen-lockfile
-pnpm typecheck
-pnpm test
-pnpm build
-```
-
-Tests also require Python 3. They run the actual authentication and application handlers against an in-memory SQLite database, without contacting a production database.
