@@ -11,14 +11,8 @@
 		{
 			"binding": "DB",
 			"database_name": "signal-db",
-			"database_id": "00000000-0000-4000-8000-000000000000",
-			"migrations_dir": "drizzle"
-		},
-		{
-			"binding": "signal_db",
-			"database_name": "signal-db",
 			"database_id": "66f8e906-98a6-4ce0-88aa-8d0e886138ad",
-			"remote": true
+			"migrations_dir": "drizzle"
 		}
 	],
 	"vars": {
