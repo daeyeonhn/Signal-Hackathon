@@ -2,6 +2,8 @@
 
 A hackathon application platform for hackers, mentors, and organizers.
 
+Link: https://signal-portal.daeyeondhan.workers.dev/
+
 ## Features
 
 - Independent email/password accounts and optional Google sign-in.
